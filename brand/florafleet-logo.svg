@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FloraFleet logo mark — taken verbatim from florafleet.eu.
+     Transparent background; scale via width/height. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="512" height="512" fill="none" role="img" aria-label="FloraFleet">
+  <!-- petals -->
+  <ellipse cx="36" cy="16" rx="10" ry="12" fill="#a78bfa" opacity="0.7"/>
+  <ellipse cx="22" cy="26" rx="10" ry="12" transform="rotate(-30 22 26)" fill="#8b5cf6" opacity="0.6"/>
+  <ellipse cx="50" cy="26" rx="10" ry="12" transform="rotate(30 50 26)" fill="#8b5cf6" opacity="0.6"/>
+  <!-- bud -->
+  <circle cx="36" cy="24" r="5" fill="#c4b5fd"/>
+  <!-- green stem + sprig -->
+  <line x1="36" y1="30" x2="36" y2="44" stroke="#10b981" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M36 38C36 38 42 34 44 30" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <!-- planter / base -->
+  <rect x="20" y="46" rx="3" width="32" height="10" fill="#a78bfa" opacity="0.9"/>
+  <!-- wheels -->
+  <circle cx="26" cy="60" r="5" fill="none" stroke="#c4b5fd" stroke-width="2"/>
+  <circle cx="46" cy="60" r="5" fill="none" stroke="#c4b5fd" stroke-width="2"/>
+  <circle cx="26" cy="60" r="1.5" fill="#c4b5fd"/>
+  <circle cx="46" cy="60" r="1.5" fill="#c4b5fd"/>
+</svg>

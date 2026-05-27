@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- FloraFleet org avatar — website mark on a dark rounded-square so the
+     light-purple petals + green stem pop. Mark scaled to ~78% and centred
+     so GitHub's circular crop never clips it. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none" role="img" aria-label="FloraFleet">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#211d36"/>
+      <stop offset="1" stop-color="#15121f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- website mark, 72-unit art scaled into a centred 400px box -->
+  <g transform="translate(56 56) scale(5.5556)">
+    <ellipse cx="36" cy="16" rx="10" ry="12" fill="#a78bfa" opacity="0.7"/>
+    <ellipse cx="22" cy="26" rx="10" ry="12" transform="rotate(-30 22 26)" fill="#8b5cf6" opacity="0.6"/>
+    <ellipse cx="50" cy="26" rx="10" ry="12" transform="rotate(30 50 26)" fill="#8b5cf6" opacity="0.6"/>
+    <circle cx="36" cy="24" r="5" fill="#c4b5fd"/>
+    <line x1="36" y1="30" x2="36" y2="44" stroke="#10b981" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M36 38C36 38 42 34 44 30" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+    <rect x="20" y="46" rx="3" width="32" height="10" fill="#a78bfa" opacity="0.9"/>
+    <circle cx="26" cy="60" r="5" fill="none" stroke="#c4b5fd" stroke-width="2"/>
+    <circle cx="46" cy="60" r="5" fill="none" stroke="#c4b5fd" stroke-width="2"/>
+    <circle cx="26" cy="60" r="1.5" fill="#c4b5fd"/>
+    <circle cx="46" cy="60" r="1.5" fill="#c4b5fd"/>
+  </g>
+</svg>
